@@ -1,0 +1,80 @@
+Watch This FREE AI Coder Blow MY MIND LIVE (AUGMENT CODE IS NUTS)
+A comprehensive evaluation of Augment Code, a free AI coding tool, comparing it to alternatives like Roo Code, CLINE, Cursor, and Windsurf. The video showcases a live test building a brewery directory website to determine if Augment Code lives up to the hype.
+
+Introduction and Context [00:00]
+
+Setting the Stage for the Augment Code Test
+The video begins with the host explaining the purpose of the demonstration: to determine if the new Augment Code AI tool is better than alternatives like Cursor, Klein, and most importantly, Boomerang Tasks. The host considers Boomerang Tasks to be the most intelligent AI coding tool he has used so far, describing it as the closest thing to AGI (Artificial General Intelligence) in his experience. To illustrate Boomerang Tasks' capabilities, the host shows a WordPress website it created from a single prompt in about 30 minutes. The example is a plumber directory website with various features including separate plumber pages and emergency service listings. This sets the benchmark against which Augment Code will be measured in the video.
+
+Key Takeaways:
+The video aims to compare Augment Code with other AI coding tools like Cursor, Klein, and Boomerang Tasks
+Boomerang Tasks is currently considered the most advanced AI coding tool by the host
+A plumber directory website created by Boomerang Tasks in 30 minutes serves as the benchmark
+The test will determine if Augment Code lives up to claims of being superior to other tools
+The host approaches the test with an unbiased perspective, having never used Augment Code before
+Initial Setup Challenges [02:30]
+
+Struggling with Augment Code's MCP Server Configuration
+The host's first experience with Augment Code reveals significant frustrations with the setup process, particularly with configuring MCP (Model Control Protocol) servers. The interface lacks intuitive controls, with the host unable to locate basic configuration options despite considerable effort. This leads to visible frustration as he comments that if users need to ask Claude (another AI) how to install an MCP server, the tool's design has fundamental usability issues. Despite these initial struggles, the host discovers some positive aspects of Augment Code, particularly its code indexing feature. Unlike tools such as Cursor that require explicit prompting to understand a codebase, Augment Code automatically indexes and understands code that's added to the project. This feature impresses the host, who notes that this capability makes Augment Code potentially better for augmenting existing code rather than creating code from scratch.
+
+Key Takeaways:
+Initial setup of Augment Code's MCP servers proved frustrating and unintuitive
+Basic configuration options were difficult to locate in the interface
+The code indexing feature automatically understands added code without explicit prompting
+Augment Code appears to be designed more for improving existing code than creating new code
+Early impressions were mixed, with significant usability issues balanced by some impressive features
+Testing Process [07:00]
+
+Setting Up the Brewery Directory Website Test
+After overcoming the initial setup hurdles, the host prepares to test Augment Code by creating an Irish brewery directory website, similar to a project he previously completed using Roo Code. He shows that his previous AI-generated brewery directory website is already ranking on Google with multiple pages indexed, setting a high bar for Augment Code to match. The host creates a blank WordPress site and prepares a CSV file containing brewery data for the project. The testing process involves giving Augment Code a comprehensive prompt that includes instructions to create an importer for the CSV data and build a directory website. The host is careful to structure the prompt similarly to what he used with Boomerang Tasks to ensure a fair comparison. Despite some initial skepticism after the setup difficulties, he commits to giving Augment Code a fair evaluation, acknowledging that it might still perform well on the actual coding task despite the interface issues.
+
+Key Takeaways:
+The test involves creating an Irish brewery directory website similar to a previous successful project
+A CSV file with brewery data is provided as the data source for the website
+The host structures the prompt similarly to what worked with Boomerang Tasks for fair comparison
+The previous brewery website created with Roo Code is already ranking on Google
+Despite setup frustrations, the host commits to an unbiased evaluation of the coding capabilities
+Initial Performance Issues [10:30]
+
+Augment Code's Slow Start and Processing Challenges
+As the test begins, Augment Code shows significant performance issues, frequently getting stuck during processing and requiring manual intervention to continue. The host expresses frustration at these delays, noting that tools like Roo Code would have completed the entire project in the time it's taking Augment Code just to get started. He questions the enthusiastic reviews he's seen online, suggesting that the tool might not live up to the hype based on these early results. However, a breakthrough occurs when Augment Code finally creates its first file - a CSS file with 950 lines of code. This substantial output gives the host pause, causing him to reconsider his initial negative assessment. He discovers that by instructing Augment Code to "refactor code into less lines per page," he can help the tool overcome its processing limitations. This workaround proves crucial for making progress with the project.
+
+Key Takeaways:
+Augment Code frequently got stuck during processing, requiring manual intervention
+The tool was significantly slower than alternatives like Roo Code in the initial stages
+A breakthrough came when it successfully created a 950-line CSS file
+Instructing the tool to "refactor code" helped overcome processing limitations
+The host identified this refactoring prompt as a key tip for other Augment Code users
+Gradual Progress [14:50]
+
+Building the Website Components Step by Step
+As the project progresses, Augment Code begins to show more promise despite continued intermittent issues. The host activates the theme created by Augment Code and begins exploring the website's appearance and functionality. The CSS implementation appears clean and professional, creating a better first impression than what the host typically sees from other AI coding tools in their early output stages. The brewery importer plugin also activates successfully, marking another positive development. The host notes that while Augment Code is not as seamless as Boomerang Tasks in terms of working autonomously without user input, the quality of what it has created so far is impressive. The theme's visual appearance is particularly noteworthy, with the host commenting that it looks better at an early stage compared to output from Roo Code or even Boomerang Tasks. This suggests that despite its processing issues, Augment Code might excel at creating polished, visually appealing code.
+
+Key Takeaways:
+Augment Code successfully created a WordPress theme with clean, professional CSS
+The brewery importer plugin activated correctly, showing functional code generation
+Visual quality of the output exceeded the host's expectations based on early results
+The tool required more user intervention than Boomerang Tasks but produced higher quality initial output
+Despite processing issues, the aesthetic quality of the code generated was impressive
+Surprising Results [19:00]
+
+The Mind-Blowing Final Product Revealed
+After working through various issues, the host finally gets to see the full website created by Augment Code, and his reaction is one of genuine shock and amazement. Despite some layout problems with the footer taking up too much space, what he can see of the website looks remarkably good. The host's demeanor completely changes from his earlier frustration to enthusiastic praise, repeatedly expressing that this is "the best one I've seen" and that the results are "incredible." The brewery directory website includes functioning features that the host notes have never worked properly on the first attempt with other AI tools. The search functionality works correctly, the Ajax implementation that was requested in the prompt is functioning perfectly (something the host mentions Boomerang Tasks has never accomplished), and the homepage design is described as the best he's seen from any AI tool on a first attempt. While there are still some issues, such as rating stars displaying incorrectly and some search functionality limitations, the overall quality far exceeds the host's expectations.
+
+Key Takeaways:
+The final website created by Augment Code dramatically exceeded expectations
+Features like search functionality and Ajax implementation worked correctly on the first attempt
+The homepage design was described as the best the host had seen from any AI tool
+Some minor issues remained, including display problems with ratings and footer layout
+The host completely reversed his initial negative assessment, calling the results "mind-blowing"
+Final Assessment [21:30]
+
+Augment Code Proves Its Worth Despite Initial Challenges
+In the final assessment, the host declares Augment Code to be the best one-shot website creation tool he has experienced. Despite the initial setup frustrations and processing issues, the quality of the final product convinces him that Augment Code is definitely worth exploring further. He emphasizes that the entire process, including all the setup difficulties, took only about an hour, with the actual coding portion taking approximately 30 minutes - comparable to the time frame he mentioned for Boomerang Tasks at the beginning of the video. The host concludes by acknowledging that while there are still some problems with the website, this is "the best website I've seen from a one-shot probably ever." He reminds viewers that this impressive result was achieved on WordPress, suggesting that the tool may be particularly valuable for WordPress developers. The video ends with the host directing viewers to his school where they can learn more about his SOPs (Standard Operating Procedures) and techniques for working with AI coding tools.
+
+Key Takeaways:
+Augment Code created what the host considers the best one-shot website he's ever seen
+The entire process took about an hour, with actual coding taking approximately 30 minutes
+Despite some remaining issues, the overall quality was superior to other AI coding tools
+The tool proved particularly effective for WordPress development
+The host completely reversed his initial skepticism, enthusiastically recommending Augment Code
