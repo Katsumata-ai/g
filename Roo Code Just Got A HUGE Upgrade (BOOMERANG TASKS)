@@ -1,0 +1,102 @@
+Roo Code Just Got A HUGE Upgrade (BOOMERANG TASKS)
+An exploration of Roo Code's new Boomerang Tasks feature, which allows AI agents to create and manage subtasks autonomously, significantly improving task management and context handling for complex projects.
+
+Introduction to Boomerang Tasks [00:01]
+
+The Revolutionary New Feature in Roo Code
+Hamish introduces Roo Code's groundbreaking new feature called Boomerang Tasks, which he describes as 'absolutely crazy' in terms of its capabilities. This feature represents a significant upgrade to how AI agents can manage complex tasks by breaking them down into smaller, more manageable subtasks. The implementation is straightforward - users can access it by going to the prompts section, pressing the plus button, and creating a new task following the documentation linked in the video description. What makes Boomerang Tasks revolutionary is that it enables 'self-controlling AI agents' that can autonomously decide which mode to operate in based on the current needs of the project. Whether it needs to be in ask mode, coding mode, or any other specialized mode, the AI can switch between these states as required to complete different aspects of a complex task. For the demonstration, Hamish uses Claude Sonnet 3.7, primarily because it offers computer use capabilities and has higher rate limits than Gemini, though he notes that users can implement this with Gemini for free if preferred.
+
+Key Takeaways:
+Boomerang Tasks is a new feature in Roo Code that allows AI agents to create and manage subtasks
+The feature is easy to implement through the prompts section
+AI agents can autonomously switch between different operational modes (ask, code, etc.)
+Claude Sonnet 3.7 is used for the demonstration due to its computer use capabilities
+Gemini can be used as a free alternative with lower rate limits
+Configuration and Setup [01:12]
+
+Transferring MCP Servers from Clein to Roo Code
+Hamish explains how users can easily transfer their MCP (Model Control Protocol) server configurations from Clein to Roo Code. The process is straightforward: navigate to the MCP servers in Clein, select the configuration with Ctrl+A, copy it with Ctrl+C, and then paste it directly into the corresponding folder in Roo Code. This seamless transfer ensures that users can maintain their existing settings while taking advantage of Roo Code's enhanced capabilities. While demonstrating this process, Hamish mentions that he hasn't yet thoroughly tested the Boomerang Tasks feature for coding tasks specifically, as he's still in the process of understanding its full capabilities. He emphasizes the importance of clarifying what the feature is and isn't, noting that it's not yet capable of running multiple concurrent instances of agents that operate completely independently. Although multiple agents can run simultaneously (which he notes is an improvement over Clein), it's not designed to set up completely autonomous instances that handle everything without supervision.
+
+Key Takeaways:
+MCP server configurations can be easily transferred from Clein to Roo Code
+The transfer process requires simple copy and paste of settings
+Boomerang Tasks hasn't been fully tested for coding tasks yet
+The feature allows multiple agents to run simultaneously, unlike Clein
+It's not designed for completely unsupervised autonomous operation
+Core Functionality [02:17]
+
+How Boomerang Tasks Dynamically Manages Workflows
+The core functionality of Boomerang Tasks revolves around its ability to dynamically switch between different operational modes such as planning, architecture, and coding. The system intelligently determines which mode is most appropriate at any given moment based on the current stage of the task. This adaptive approach ensures that the AI is always operating in the most effective mode for the specific subtask it's handling. Perhaps the most powerful aspect of Boomerang Tasks is its ability to generate subtasks automatically. Rather than treating a complex project as one monolithic task, the AI breaks it down into smaller, more manageable chunks. This decomposition allows for more focused work on each component of the project, improving overall efficiency and effectiveness. The system essentially mimics how a human might approach a complex project by dividing it into logical steps and tackling each one with the appropriate mindset and tools.
+
+Key Takeaways:
+Boomerang Tasks can dynamically switch between planning, architecture, and coding modes
+The system automatically determines which mode is most appropriate for the current stage
+AI generates subtasks by breaking complex projects into smaller, manageable chunks
+This approach mimics human problem-solving strategies
+Task decomposition allows for more focused and efficient work
+Practical Demonstration [02:48]
+
+Real-World Application with Irish Brewery Research
+To demonstrate the practical application of Boomerang Tasks, Hamish shows two instances of the feature in action - one that has been running for some time and another that he just initiated during the video recording. His example task involves researching Irish breweries and improving data quality by programmatically generating coordinates from air codes and filling in missing information. This type of research task is ideal for showcasing how Boomerang Tasks handles complex information gathering and processing. Hamish highlights a significant improvement over Clein's task management. In Clein, the system bases project completion solely on the initial task description, which often leads to premature completion notifications when the AI has only finished part of the work. This becomes problematic when users want to extend or modify the task, as Clein repeatedly declares the task complete despite ongoing work. Roo Code's Boomerang Tasks addresses this limitation by dynamically updating the current task based on what the AI is actually working on, rather than rigidly adhering to the initial prompt.
+
+Key Takeaways:
+Demonstration uses a real-world task of researching Irish breweries
+The example shows how to improve data quality by generating coordinates and filling missing information
+Boomerang Tasks solves a major limitation in Clein where tasks are prematurely marked as complete
+The system dynamically updates the current task based on actual work progress
+This approach allows for more flexible and responsive task management
+Task Management Improvements [05:01]
+
+Enhanced Context Management and Task Chunking
+One of the most significant advantages of Boomerang Tasks is its sophisticated approach to context management. Instead of trying to handle a massive research or coding task within a single context window (which has limitations even with Claude's 200K or 1 million token capacity), the system divides the work into individual tasks, each with its own full context window. This prevents context overload and ensures that the AI has sufficient space to process each subtask thoroughly. The system also intelligently manages the overall task by only including relevant context from each subtask in the combined task view. This selective context sharing means that nothing gets overloaded with unnecessary information. Each specialized function can focus exclusively on its domain: the architect concentrates on building, the coder on coding, the researcher on researching, and the task generator on determining what to do next. This specialization and efficient context management make Boomerang Tasks particularly well-suited for complex projects that would otherwise exceed context limitations or become unwieldy in a single-task approach.
+
+Key Takeaways:
+Each subtask gets its own full context window (200K tokens for Claude)
+The system prevents context overload by chunking large tasks
+Only relevant context from subtasks is included in the combined task view
+Specialized functions can focus exclusively on their domains
+This approach is ideal for complex projects that would otherwise exceed context limitations
+Community Applications [07:47]
+
+Creating Custom Workflows and Templates
+Hamish acknowledges his Skool community and highlights how users can create specific custom workflows using Boomerang Tasks. Since the feature operates as a custom mode within Roo Code, users can design their own task delegation workflows by creating templates for complex processes. For example, a template might include steps like generating a niche, creating a design, and other sequential tasks that together form a comprehensive workflow that can potentially generate income. The ability to create these custom templates transforms Boomerang Tasks from a simple feature into a powerful tool for automating complex business processes. Hamish's excitement about this capability is evident as he remarks that it's starting to feel like AGI (Artificial General Intelligence), suggesting that the level of autonomous task management and delegation is approaching a new threshold of AI capability. This customization potential opens up numerous possibilities for users to create specialized workflows tailored to their specific business needs.
+
+Key Takeaways:
+Users can create custom workflows and templates for specific business processes
+Templates can include sequential steps like niche generation and design creation
+Custom workflows can potentially automate complex income-generating processes
+The feature's capabilities approach AGI-like functionality in task management
+Customization allows for specialized workflows tailored to specific business needs
+Limitations and Context Windows [08:55]
+
+Solving the Task Completion Problem
+Hamish addresses a longstanding problem in AI task management that has existed since tools like GPT Pilot (which he used to build the original Harbor). The issue involves AI systems becoming too fixated on the initial task description, repeatedly declaring tasks complete once they've addressed the original prompt, even when users want to extend or modify the work. This rigid adherence to the initial task definition has been a significant limitation in tools like Clein, where the AI would persistently respond with "the task is complete" rather than adapting to new requirements. Boomerang Tasks in Roo Code solves this problem by dynamically updating the current task based on the ongoing work. This flexibility allows users to extend projects beyond the initial scope without the AI prematurely declaring completion. Hamish notes that while there are still some bugs and confusion around tracking progress and managing multiple simultaneous tasks, the overall approach represents a major improvement in how AI handles complex, evolving projects. He mentions that each task has its own context window and cost, so users should be careful about resource usage, especially for research-intensive tasks.
+
+Key Takeaways:
+Boomerang Tasks solves the problem of AIs fixating on initial task descriptions
+Previous tools like GPT Pilot and Clein would prematurely declare tasks complete
+The new system allows projects to extend beyond initial scope
+Each task has its own context window and associated cost
+Users should be mindful of resource usage for research-intensive tasks
+Future Applications [09:45]
+
+Plans for Testing with Gemini 2.5 Pro
+Looking toward the future, Hamish expresses his excitement about testing Boomerang Tasks with Gemini 2.5 Pro, primarily due to its expanded context window. He plans to explore the full capabilities of the feature by attempting to build an entire directory research system. This ambitious project will serve as a comprehensive test of what Boomerang Tasks can accomplish with a more powerful model and larger context window. Hamish promises to create a follow-up video documenting his results if the experiment proves successful. Hamish also notes some additional advantages of Roo Code over Clein, including the improved performance of Brave and fetch MCP on Roo Code and the overall speed of the platform. He mentions that Clein frequently encountered issues with getting stuck and consuming excessive context window space when handling JavaScript, problems that appear to have been resolved in Roo Code's implementation. These improvements, combined with the new Boomerang Tasks feature, have convinced Hamish to primarily use Roo Code for his future projects.
+
+Key Takeaways:
+Hamish plans to test Boomerang Tasks with Gemini 2.5 Pro due to its larger context window
+He intends to build a complete directory research system as a comprehensive test
+Roo Code offers improved performance with Brave and fetch MCP compared to Clein
+Clein had issues with JavaScript causing excessive context window usage
+The combined improvements have convinced Hamish to switch primarily to Roo Code
+Conclusion [10:00]
+
+Final Thoughts and Community Invitation
+As the video concludes, Hamish thanks viewers for watching and extends an invitation to join his Skool community, emphasizing that members find it very helpful. The community appears to be a place where users can share insights, strategies, and experiences with tools like Roo Code and its Boomerang Tasks feature. This collaborative environment likely enhances the learning curve and practical application of these advanced AI tools. Throughout the video, Hamish's enthusiasm for Boomerang Tasks is evident. He describes it as a revolutionary feature that addresses longstanding limitations in AI task management and opens up new possibilities for complex project handling. While acknowledging that there are still some bugs and areas of confusion, his overall assessment is highly positive, suggesting that this feature represents a significant step forward in how AI can be leveraged for sophisticated, multi-stage projects. His plans to continue testing with more powerful models indicate that he sees considerable untapped potential in this approach to AI task management.
+
+Key Takeaways:
+Hamish invites viewers to join his Skool community for collaborative learning
+Boomerang Tasks represents a revolutionary advancement in AI task management
+The feature addresses longstanding limitations in how AI handles complex projects
+Despite some bugs, the overall assessment is highly positive
+Future testing with more powerful models may reveal additional capabilities
