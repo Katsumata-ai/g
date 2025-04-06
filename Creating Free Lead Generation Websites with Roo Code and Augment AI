@@ -1,0 +1,103 @@
+Creating Free Lead Generation Websites with Roo Code and Augment AI
+A comprehensive guide to building professional local business websites in under 20 minutes using AI tools like Roo Code for research and Augment Code for WordPress development.
+
+Introduction [00:00]
+
+Overview of the Website Creation Process
+The video demonstrates a highly requested method of using Roo Code for research and Augment Code to create WordPress websites for local businesses. The presenter begins by selecting a random local business - a plumber in Athenry, Ireland - to demonstrate how quickly and efficiently a professional website can be created with minimal starting information. The process involves two main stages: first, using Roo Code to gather comprehensive information about the business and generate a structured JSON file, and second, using Augment Code to transform that data into a fully functional WordPress website. This method represents a significant improvement over traditional WordPress development approaches, allowing for rapid creation of lead generation websites with professional features.
+
+Key Takeaways:
+The method uses Roo Code for research and Augment Code for WordPress development
+The entire process can create a professional website in under 20 minutes
+Only minimal information (like a business name) is needed to start the process
+The technique works for businesses with or without existing websites
+The approach is particularly useful for local service businesses
+Research Phase [01:15]
+
+Using Roo Code to Gather Business Information
+The research phase begins with Roo Code, which the presenter shows has been running overnight on a previous project researching beaches in Ireland. This demonstrates how the tool can automatically compile comprehensive information with minimal input. For the plumber example, the presenter creates a prompt instructing Roo Code to gather as much information as possible about "Palms Plumbing in Athenry" and output it as a JSON file. The system leverages multiple Machine Cognition Processors (MCPs) including Google Maps, Brave Search, and Fetch to gather business details. It collects the business address, contact information, opening hours, reviews, services offered, and even images from Google My Business. Additionally, the presenter discovers a method to incorporate stock images from Unsplash to supplement the business's actual photos, creating a more visually appealing website.
+
+Key Takeaways:
+Roo Code can run automated research tasks that collect comprehensive business information
+The system uses Google Maps MCP to extract business details from Google My Business listings
+Brave Search and Fetch MCPs gather additional third-party information about the business
+The tool automatically collects reviews, services, contact information, and business images
+Stock images from Unsplash can be incorporated to enhance the visual appeal
+All information is structured into a JSON file for easy use in the website building phase
+The entire research process is extremely cost-effective, with many components being free
+Service Information [10:00]
+
+Extracting Detailed Service Information
+A critical component of creating an effective lead generation website is accurately representing the business's services. The presenter demonstrates how to extract detailed service information using the Browser Use MCP, which can navigate to Google, search for the business, and extract service listings from their Google My Business profile. This provides the foundation for creating service-specific landing pages. The process involves setting up a browser agent with sufficient timeout settings to allow for comprehensive data extraction. The presenter shows how to follow along with the agent's progress through a live link, ensuring it correctly navigates to the business listing and extracts all available service information. This automated approach eliminates the need for manual copying and allows for the creation of a repeatable standard operating procedure (SOP) that can be applied to any business.
+
+Key Takeaways:
+Service information is crucial for creating targeted landing pages
+The Browser Use MCP can navigate Google and extract service listings automatically
+Setting appropriate timeout values is important for successful data extraction
+The process can be monitored in real-time through a live link
+This approach creates a repeatable SOP for gathering business service information
+The extracted service information enables creation of location-specific service pages
+This automated approach is significantly faster than manual research methods
+Website Creation [14:30]
+
+Setting Up Local WordPress and Augment Code
+With the research phase complete and a comprehensive JSON file containing all necessary business information, the presenter moves to the website creation phase. This begins with creating a new site in Local WordPress, naming it after the business (Palms Plumbing). The presenter emphasizes the importance of having VS Code installed with the option to open files directly from right-click context menus. Augment Code is then used to index the codebase, preparing it to generate the website. The presenter crafts a detailed prompt instructing Augment Code to use the JSON file to build a complete website for the plumber. The prompt specifies that every object in the JSON should be used at least once, images should be incorporated throughout, call-to-action elements should be included to generate leads, and service pages should be created for all major cities in the service area. Additional instructions include creating a modern design with modular vertical blocks, a mega menu header, and a comprehensive footer.
+
+Key Takeaways:
+Local WordPress provides the foundation for the website with built-in database functionality
+VS Code integration is essential for working with Augment Code
+Augment Code can generate websites from structured JSON data
+The prompt must specify design elements, page structure, and functionality requirements
+The system can create location-specific service pages automatically
+The process allows for simultaneous work on multiple websites
+WordPress's built-in database simplifies the implementation of contact forms
+Elementor Approach [20:30]
+
+Testing Elementor for Website Building
+The presenter explores using Elementor with Augment Code as an alternative approach to website creation. Augment Code generates commands to install necessary plugins including Elementor, WordPress SEO (Yoast), and WP Forms. It then proceeds to create template files for the homepage and other key pages, which can be imported into Elementor. However, after testing this approach, the presenter concludes that while Elementor integration works, it's not the optimal solution. The process requires more manual steps to import templates, and some features require the paid Pro version of Elementor. The presenter decides that a custom theme approach would be more efficient and proceeds to restart the process without Elementor, focusing on a vanilla WordPress implementation instead.
+
+Key Takeaways:
+Augment Code can generate Elementor templates and install necessary plugins
+The Elementor approach requires manual importing of template files
+Some desired features require Elementor Pro (paid version)
+The Elementor approach produces visually appealing results but with limitations
+A custom theme approach is generally more efficient for this use case
+The experiment confirms Augment Code's flexibility with different WordPress approaches
+Custom Theme Approach [28:00]
+
+Building a Custom WordPress Theme
+After deciding against the Elementor approach, the presenter restarts the process to create a custom WordPress theme. Using the same JSON data, a new prompt is crafted specifically requesting not to use Elementor. Augment Code then proceeds to create a custom theme built on WordPress 2024/2025, which the presenter believes will be faster and more efficient. The system automatically creates custom CSS, determines major towns within the service area, and builds a comprehensive site structure. The presenter activates the generated theme through the WordPress admin panel, revealing a professional-looking website with modern design elements. While some pages initially show as "not found," the presenter demonstrates how to publish the generated pages and create the navigation menus to complete the site structure.
+
+Key Takeaways:
+Custom themes built on WordPress 2024/2025 offer better performance than Elementor
+Augment Code can automatically create custom CSS and theme files
+The system can determine service areas based on geographic proximity
+The generated theme includes professional design elements without requiring paid plugins
+Some manual publishing of pages is required to complete the site structure
+The custom theme approach produces cleaner code and faster loading times
+WordPress navigation menus can be automatically generated
+Final Results [34:00]
+
+Reviewing the Completed Website
+The presenter reviews the final website, which was created in approximately 10 minutes from start to finish. The site features a professional design with clear call-to-action elements, service descriptions, and location-specific pages. The system even incorporated Google Maps integration without being specifically instructed to do so. The presenter notes that while some minor adjustments are still needed, such as adding a contact form and fixing some navigation issues, the overall result is impressive for the minimal time investment. The website includes service pages, location pages, and combined service-location pages (e.g., "Radiator Installations in Athenry"). The presenter emphasizes that this process would typically take weeks or even a month in a traditional agency setting, highlighting the revolutionary efficiency of this AI-powered approach. The final product is built on WordPress 2024, which offers performance benefits, and uses a child theme for proper WordPress architecture.
+
+Key Takeaways:
+The entire website creation process takes approximately 10 minutes
+The final product includes professional design elements and clear call-to-action components
+Location-specific service pages are automatically generated
+Google Maps integration is included without specific instructions
+The WordPress 2024 theme provides performance benefits
+Minor adjustments like adding contact forms can be easily implemented
+This approach reduces website development time from weeks to minutes
+Future Possibilities [39:00]
+
+Integration with Design Tools and Scaling
+In the closing section, the presenter discusses exciting future possibilities for this website creation approach. He highlights the potential integration with Figma through an MCP, which would allow designers to create beautiful designs in Figma and then automatically generate functional WordPress websites based on those designs. This would combine the best of both worlds: professional design capabilities with rapid implementation. The presenter also emphasizes the scalability of this approach, noting that while one website is being generated, work can already begin on researching the next project. This parallel processing capability makes the system ideal for agencies or freelancers working with multiple clients. The video concludes with an invitation to join the presenter's school for more in-depth learning about these AI automation techniques.
+
+Key Takeaways:
+Figma integration could allow for custom designs to be automatically implemented
+The process enables parallel work on multiple websites simultaneously
+This approach is ideal for agencies handling multiple client websites
+The technology continues to evolve with new MCPs being developed
+The entire process uses mostly free tools, making it accessible to everyone
+The approach represents a paradigm shift in website development efficiency
